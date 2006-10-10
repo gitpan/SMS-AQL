@@ -1,0 +1,13 @@
+Revision history for Perl extension SMS::AQL.
+
+0.01  Thu Aug 10 22:13:16 2006
+development starts... pre-alpha version started life as
+Net::AQSMS::Send, name SMS::AQL was then agreed after
+brief discussion with modules@perl.org guys, Brian in
+particular - thanks for your input Brian.
+
+Initial version is quite limited, but tested and works
+well for me.  Not tested with non-UK destination numbers.
+
+
+
