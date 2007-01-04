@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # Test script for Net::AQSMS::Send
-# $Id: SMS-AQL.t 49 2006-10-10 22:12:54Z davidp $
+# $Id: SMS-AQL.t 81 2007-01-04 22:25:47Z davidp $
 
 use strict;
 use warnings;
@@ -47,8 +47,8 @@ SKIP: {
     skip "No destination number given" unless $test_to;
     
     # now call in list context to check it definately worked:
-    ($ok, $why) = $sender->send_sms($test_to, 'Second test with SMS::AQL, ' .
-                                    'send_sms() in list context',
+    ($ok, $why) = $sender->send_sms($test_to, 'Test message from SMS::AQL ' .
+                                    'test suite',
                                     { sender => 'SMS::AQL' });
     
     SKIP: {
