@@ -1,4 +1,4 @@
-SMS::AQL version 0.02
+SMS::AQL version 0.03
 ===========================
 
 SMS::AQL is a simple module which provides a clean
@@ -47,4 +47,4 @@ it under the same terms as Perl itself, either Perl version 5.8.7 or,
 at your option, any later version of Perl 5 you may have available.
 
 
-$Id: README 81 2007-01-04 22:25:47Z davidp $
+$Id: README 153 2007-06-26 20:12:44Z davidp $

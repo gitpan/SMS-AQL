@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $Id: example.pl 81 2007-01-04 22:25:47Z davidp $
+# $Id: example.pl 153 2007-06-26 20:12:44Z davidp $
 
 # Simple usage example for SMS::AQL
 
@@ -18,6 +18,11 @@ use SMS::AQL;
 my $sender = new SMS::AQL({username => $test_user, password => $test_pass});
 
 if (!$sender || ! ref $sender) { die('Failed to instantiate SMS::AQL'); }
+
+
+my $credits = $sender->credit();
+
+print "Account $test_user has $credits credits.\n";
 
 print "Destination: ?> ";
 my $test_to = <>;

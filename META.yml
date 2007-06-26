@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:                SMS-AQL
-version:             0.02
+version:             0.03
 abstract:            Perl extension to send SMS text messages via AQ's SMS service
 license:             ~
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.32
 distribution_type:   module
 requires:     
 meta-spec:
