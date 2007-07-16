@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $Id: example.pl 153 2007-06-26 20:12:44Z davidp $
+# $Id: example.pl 158 2007-07-16 01:04:25Z davidp $
 
 # Simple usage example for SMS::AQL
 
@@ -12,13 +12,15 @@ my $test_user = 'sms-aql-test';
 my $test_pass = 'sms-aql-test';
 
 use warnings;
-use lib './lib/';
+use lib '../lib/';
 use SMS::AQL;
 
 my $sender = new SMS::AQL({username => $test_user, password => $test_pass});
 
 if (!$sender || ! ref $sender) { die('Failed to instantiate SMS::AQL'); }
 
+
+print "SMS::AQL $SMS::AQL::VERSION loaded OK\n";
 
 my $credits = $sender->credit();
 
