@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 
 # Basic operational tests for SMS::AQL
-# $Id: 1-basic.t 155 2007-06-26 20:18:51Z davidp $
+# $Id: 1-basic.t 167 2007-08-22 10:38:01Z davidp $
 
 use strict;
-use warnings;
 use Test::More tests => 4;
+
 # NOTE - the test username and password is for testing SMS::AQL *only*,
 # not to be used for any other purpose.  It is given a small amount of
 # credit now and then, if you try to abuse it, it just won't get given

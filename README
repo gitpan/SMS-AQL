@@ -1,4 +1,4 @@
-SMS::AQL version 0.04
+SMS::AQL version 0.06
 ===========================
 
 SMS::AQL is a simple module which provides a clean
@@ -71,4 +71,4 @@ THANKS
    several improvements
 
 
-$Id: README 163 2007-08-14 12:42:06Z davidp $
+$Id: README 167 2007-08-22 10:38:01Z davidp $
