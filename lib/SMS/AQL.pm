@@ -4,7 +4,7 @@ package SMS::AQL;
 #
 # David Precious, davidp@preshweb.co.uk
 #
-# $Id: AQL.pm 167 2007-08-22 10:38:01Z davidp $
+# $Id: AQL.pm 191 2008-01-14 22:17:37Z davidp $
 
 
 use 5.005000;
@@ -15,7 +15,7 @@ use LWP::UserAgent;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 my $UNRECOGNISED_RESPONSE = "Unrecognised response from server";
 my $NO_RESPONSES = "Could not get valid response from any server";
