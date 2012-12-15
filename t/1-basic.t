@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 # Basic operational tests for SMS::AQL
-# $Id: 1-basic.t 167 2007-08-22 10:38:01Z davidp $
+# $Id$
 
 use strict;
 use Test::More tests => 4;

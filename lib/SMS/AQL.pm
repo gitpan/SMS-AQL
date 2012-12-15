@@ -4,7 +4,7 @@ package SMS::AQL;
 #
 # David Precious, davidp@preshweb.co.uk
 #
-# $Id: AQL.pm 302 2008-03-18 18:20:31Z davidp $
+# $Id$
 
 
 use 5.005000;
@@ -16,14 +16,14 @@ use LWP::UserAgent;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '0.08';
+$VERSION = '1.00';
 
 my $UNRECOGNISED_RESPONSE = "Unrecognised response from server";
 my $NO_RESPONSES = "Could not get valid response from any server";
 
 =head1 NAME
 
-SMS::AQL - Perl extension to send SMS text messages via AQ's SMS service
+SMS::AQL - Perl extension to send SMS text messages via AQL's SMS service
 
 =head1 SYNOPSIS
 

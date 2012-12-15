@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $Id: example.pl 158 2007-07-16 01:04:25Z davidp $
+# $Id$
 
 # Simple usage example for SMS::AQL
 
