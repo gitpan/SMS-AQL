@@ -16,7 +16,7 @@ use LWP::UserAgent;
 use HTTP::Request;
 use vars qw($VERSION);
 
-$VERSION = '1.00';
+$VERSION = '1.01';
 
 my $UNRECOGNISED_RESPONSE = "Unrecognised response from server";
 my $NO_RESPONSES = "Could not get valid response from any server";
@@ -131,8 +131,7 @@ sub new {
     
     # the list of servers we can try:
     $self->{sms_servers} = [qw(
-        gw1.sms2email.com    gw11.sms2email.com
-        gw2.sms2email.com    gw22.sms2email.com
+        gw.aql.com
     )];
     
     $self->{voice_servers} = ['vp1.aql.com'];

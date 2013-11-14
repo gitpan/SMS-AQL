@@ -11,4 +11,3 @@ t/3-pod-coverage.t
 t/4-mock.t
 lib/SMS/AQL.pm
 META.yml                                 Module meta-data (added by MakeMaker)
-META.json                                Module JSON meta-data (added by MakeMaker)

@@ -1,27 +1,27 @@
----
-abstract: "Perl extension to send SMS text messages via AQL's SMS service"
+--- #YAML:1.0
+name:               SMS-AQL
+version:            1.01
+abstract:           Perl extension to send SMS text messages via AQL's SMS service
 author:
-  - 'David Precious <davidp@preshweb.co.uk>'
-build_requires:
-  ExtUtils::MakeMaker: 0
+    - David Precious <davidp@preshweb.co.uk>
+license:            perl
+distribution_type:  module
 configure_requires:
-  ExtUtils::MakeMaker: 0
-dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921'
-license: perl
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-name: SMS-AQL
-no_index:
-  directory:
-    - t
-    - inc
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-  LWP::UserAgent: 0
-  perl: 5.005
+    LWP::UserAgent:  0
+    perl:            5.005
 resources:
-  bugtracker: https://github.com/bigpresh/SMS-AQL/issues
-  homepage: https://github.com/bigpresh/SMS-AQL/
-  repository: https://github.com/bigpresh/SMS-AQL
-version: 1.00
+    bugtracker:  https://github.com/bigpresh/SMS-AQL/issues
+    homepage:    https://github.com/bigpresh/SMS-AQL/
+    repository:  https://github.com/bigpresh/SMS-AQL
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
